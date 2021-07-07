@@ -26,6 +26,23 @@
     margin-bottom: 20px;
 }
 
+.cicle {
+    text-align: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    overflow: hidden;
+    float: left;
+    margin: 15px;
+    font-size: 18px;
+    p {
+        padding-top: 10px;
+    }
+    color: white;
+    background: #3f51b5;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
 .card-arq {
     width: 100%;
     margin: 30px;
@@ -37,17 +54,17 @@ button {
     height: 54px;
 }
 
-.buttons-list{
+.buttons-list {
     margin-top: 138px;
     padding-left: 20px;
     padding-right: 20px;
 }
 
-.histograma-card{
+.histograma-card {
     height: 452px;
 }
-.card-grafico{
+.card-grafico {
     margin: 20px 30px;
-    margin-left: 45px ;
+    margin-left: 45px;
     width: 100%;
 }

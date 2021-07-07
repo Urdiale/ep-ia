@@ -13,10 +13,10 @@ export class HttpClientService {
     private http: HttpClient,
   ) { }
 
-  readonly url : string = 'localhost:8080/api'
+  readonly url : string = 'localhost:8080/api/'
   // readonly url: string = 'https://trabalho-ia/api'
 
   getIformação(){
-    return this.http.get<any>( `${this.url}/getInformacao`)
+    return this.http.get<any>( `${this.url}/treinamento`)
   }
 }

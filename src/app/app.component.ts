@@ -8,10 +8,11 @@ import { HttpclientService } from './services/httpclient.service'
 })
 export class AppComponent {
   title = 'ep-ia';
+  step1 = true;
+  step2 = true;
+  step3 = true;
 
-
-  constructor( http : HttpclientService)
-  {}
+  constructor(http: HttpclientService) { }
   ngOnInit(): void {
 
   }
