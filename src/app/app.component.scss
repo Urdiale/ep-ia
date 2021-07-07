@@ -25,7 +25,228 @@
     margin-top: 60px;
     margin-bottom: 20px;
 }
+.arrow1 {
+    position: relative;
+    width: 35%;
+    height: 0px;
+    top: 110px;
+    left: 33px;
+    border: 3px solid red;
+    box-sizing: border-box;
+}
+.arrow2 {
+    position: relative;
+    width: 35%;
+    height: 0px;
+    top: 115px;
+    left: 33px;
+    border: 3px solid red;
+    box-sizing: border-box;
+    transform: rotate(10.94deg);
+}
+.arrow3 {
+    position: relative;
+    width: 35%;
+    height: 0px;
+    top: 155px;
+    left: 33px;
+    border: 3px solid red;
+    box-sizing: border-box;
+    transform: rotate(20.94deg);
 
+}
+.arrow4 {
+    position: relative;
+    width: 35%;
+    height: 0px;
+    top: 155px;
+    left: 33px;
+    border: 3px solid brown;
+    box-sizing: border-box;
+}
+.arrow5 {
+    position: relative;
+    width: 35%;
+    height: 0px;
+    top: 140px;
+    left: 33px;
+    border: 3px solid brown;
+    transform: rotate(10.94deg);
+    box-sizing: border-box;
+}
+.arrow6 {
+    position: relative;
+    width: 35%;
+    height: 0px;
+    top: 140px;
+    left: 33px;
+    border: 3px solid #000000;
+    box-sizing: border-box;
+}
+.arrow7 {
+    position: relative;
+    width: 35%;
+    height: 0px;
+    top: 250px;
+    left: 33px;
+    border: 3px solid #000000;
+    box-sizing: border-box;
+}
+.arrow8 {
+    position: relative;
+    width: 35%;
+    height: 0px;
+    top: 250px;
+    left: 33px;
+    border: 3px solid #000000;
+    box-sizing: border-box;
+}
+.arrow9 {
+    position: relative;
+    width: 35%;
+    height: 0px;
+    top: 250px;
+    left: 330px;
+    border: 3px solid #000000;
+    box-sizing: border-box;
+}
+.arrow10 {
+    position: relative;
+    width: 35%;
+    height: 0px;
+    top: 60px;
+    left: 505px;
+    border: 3px solid #000000;
+    box-sizing: border-box;
+}
+.arrow11 {
+    position: relative;
+    width: 35%;
+    height: 0px;
+    top: 100px;
+    left: 505px;
+    border: 3px solid #000000;
+    box-sizing: border-box;
+    transform: rotate(10.94deg);
+}
+.arrow12 {
+    position: relative;
+    width: 35%;
+    height: 0px;
+    top: 130px;
+    left: 505px;
+    border: 3px solid #000000;
+    box-sizing: border-box;
+    transform: rotate(20.94deg);
+}
+.arrow13 {
+    position: relative;
+    width: 35%;
+    height: 0px;
+    top: 140px;
+    left: 33px;
+    border: 3px solid #000000;
+    box-sizing: border-box;
+}
+.arrow14 {
+    position: relative;
+    width: 35%;
+    height: 0px;
+    top: 140px;
+    left: 33px;
+    border: 3px solid #000000;
+    box-sizing: border-box;
+}
+.arrow15 {
+    position: relative;
+    width: 35%;
+    height: 0px;
+    top: 140px;
+    left: 33px;
+    border: 3px solid #000000;
+    box-sizing: border-box;
+}
+.arrow16 {
+    position: relative;
+    width: 35%;
+    height: 0px;
+    top: 250px;
+    left: 33px;
+    border: 3px solid #000000;
+    box-sizing: border-box;
+}
+.arrow17 {
+    position: relative;
+    width: 35%;
+    height: 0px;
+    top: 250px;
+    left: 33px;
+    border: 3px solid #000000;
+    box-sizing: border-box;
+}
+.arrow18 {
+    position: relative;
+    width: 35%;
+    height: 0px;
+    top: 250px;
+    left: 33px;
+    border: 3px solid #000000;
+    box-sizing: border-box;
+}
+.arrow19 {
+    position: relative;
+    width: 35%;
+    height: 0px;
+    top: 250px;
+    left: 33px;
+    border: 3px solid #000000;
+    box-sizing: border-box;
+}
+.arrow20 {
+    position: relative;
+    width: 35%;
+    height: 0px;
+    top: 250px;
+    left: 33px;
+    border: 3px solid #000000;
+    box-sizing: border-box;
+}
+.arrow21 {
+    position: relative;
+    width: 35%;
+    height: 0px;
+    top: 30px;
+    left: 33px;
+    border: 3px solid #000000;
+    box-sizing: border-box;
+}
+.arrow22 {
+    position: relative;
+    width: 35%;
+    height: 0px;
+    top: 30px;
+    left: 33px;
+    border: 3px solid #000000;
+    box-sizing: border-box;
+}
+.arrow23 {
+    position: relative;
+    width: 35%;
+    height: 0px;
+    top: 30px;
+    left: 33px;
+    border: 3px solid #000000;
+    box-sizing: border-box;
+}
+.arrow24 {
+    position: relative;
+    width: 35%;
+    height: 0px;
+    top: 30px;
+    left: 33px;
+    border: 3px solid #000000;
+    box-sizing: border-box;
+}
 .cicle {
     text-align: center;
     width: 60px;
@@ -61,10 +282,23 @@ button {
 }
 
 .histograma-card {
-    height: 452px;
+   min-height: 452px;
 }
 .card-grafico {
     margin: 20px 30px;
     margin-left: 45px;
     width: 100%;
+}
+.matriz{
+    margin-left: 50px;
+    margin-bottom: 30px;
+}
+.square-matriz{
+    border: 1px solid #3f51b5;
+    height: 50px;
+    p{
+        margin: 15px;
+        color: black;
+        font-size: 30px;
+    }
 }

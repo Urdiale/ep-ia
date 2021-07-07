@@ -7,6 +7,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatCardModule} from '@angular/material/card';
 import {MatButtonModule} from '@angular/material/button';
 import { ChartsModule } from 'ng2-charts';
+import { HttpClientModule } from '@angular/common/http';
 
 
 
@@ -24,6 +25,7 @@ import { ChartsModule } from 'ng2-charts';
     MatCardModule,
     MatButtonModule,
     ChartsModule,
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
