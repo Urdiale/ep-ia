@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { HttpClient } from '@angular/common/http'
+import { HttpClient, HttpHeaders } from '@angular/common/http'
 import { Observable } from 'rxjs';
 
 @Injectable({
@@ -10,30 +10,41 @@ export class ApiserviceService {
   constructor(
     private http: HttpClient
   ) { }
-  
-  readonly url : string = 'localhost:8080/api/'
+
+  readonly url: string = 'api/'
   // readonly url: string = 'https://trabalho-ia/api'
 
-  getTreinamento(): Observable<any>{
-    return this.http.get<any>( `${this.url}treinamento`)
+  getTreinamento(): Observable<any> {
+    return this.http.get<any>(`${this.url}treinamento`)
   }
-  getTreinamento1(): Observable<any>{
-    return this.http.get<any>( `${this.url}treinamento1`)
+  getTreinamento1(): Observable<any> {
+    return this.http.get<any>(`${this.url}treinamento1`)
   }
-  getPesos(){
-    return this.http.get<any>( `${this.url}getPesos`)
+  getPesos() {
+    return this.http.get<any>(`${this.url}getPesos`)
   }
-  getPesosAleatorios(): Observable<any>{
-    return this.http.get<any>( `${this.url}pesosAleatorios`)
+  getPesosAleatorios(): Observable<any> {
+    return this.http.get<any>(`${this.url}PesosAleatorios`)
   }
-  getPesosPerfeitosIniciais(): Observable<any>{
-    return this.http.get<any>( `${this.url}pesosPerfeitosIniciais`)
+  getPesosPerfeitosIniciais(): Observable<any> {
+    return this.http.get<any>(`${this.url}PesosPerfeitosIniciais`)
   }
-  getPesosPerfeitosFinais(): Observable<any>{
-    return this.http.get<any>( `${this.url}pesosPerfeitosFinais`)
+  getPesosPerfeitosFinais(): Observable<any> {
+    return this.http.get<any>(`${this.url}pesosPerfeitosFinais`)
   }
-  getMudarProblema(funcao: string): Observable<any>{
-    return this.http.post( `${this.url}problema/`, funcao)
+  getMudarProblema(funcao: string): Observable<any> {
+    const header = new HttpHeaders()
+      .set('Content-Type', 'application/jason')
+      .set('Accept', 'application/jason')
+      .set('Access-Control-Allow-Origin', '*');
+    return this.http.get(`${this.url}problema/${funcao}` )
+  }
+  post(textfuncao: string): Observable<any> {
+    const header = new HttpHeaders()
+    .set('Content-Type', 'application/jason')
+    .set('Accept', 'application/jason')
+    .set('Access-Control-Allow-Origin', '*');
+  return this.http.post(`${this.url}`, textfuncao,{'headers': header} )
   }
 }
 
